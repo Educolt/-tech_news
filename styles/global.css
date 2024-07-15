@@ -5,24 +5,43 @@
 }
 
 :root {
-    --brand-color: #EF5F4C;
-    --background-color: #FFFFFF;
-    --surface-color: #F5F5F5;
-    --skeleton-color: #D9D9D9;
+    --brand-color-light: #60A5FA;
+    --brand-color-dark: #1D4ED8; 
+    --background-color: #0F172A;
+    --stroke-color: #1E293B;
     --shape-transparency: #FFFFFF8f;
 
-    --text-color-primary: #313131;
-    --text-color-secondary: #6C6C6C;
+    --text-color-primary: #F1F5F9;
+    --text-color-secondary: #CBD5E1 ;
 
-    --font-family: "Poppins", sans-serif;
-    --text: 16px/150% var(--font-family);
-    --text-lg: bold 32px/125% var(--font-family);
-    --text-md: 14px/170% var(--font-family);
-    --text-sm: 12px/170% var(--font-family);
-}
+    --font-family: "Archivo", sans-serif
+    --text: normal 14px/160% var(--font-family);
+    --text-lg: 700 24px/135% var(--font-family);
+    --text-md: 700 16px/140% var(--font-family);
+    --text-sm: 500 14px/145% var(--font-family);
 
-body {
     font: var(--text);
     color: var(--text-color-secondary);
-    background-color: var(--surface-color);
+    background: var(--background-color);
+}
+
+.content {
+    background: var(--brand-color-dark);
+}
+
+i {
+    color: var(--text-color-primary); 
+}
+
+i:hover { 
+    color: var(--brand-color-light);
+}
+
+a {
+    color: var(--text-color-secondary);
+    text-decoration: none;
+}
+
+a:hover { 
+    color: var(--brand-color-light);
 }
