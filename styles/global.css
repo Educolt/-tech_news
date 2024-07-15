@@ -9,7 +9,6 @@
     --brand-color-dark: #1D4ED8; 
     --background-color: #0F172A;
     --stroke-color: #1E293B;
-    --shape-transparency: #FFFFFF8f;
 
     --text-color-primary: #F1F5F9;
     --text-color-secondary: #CBD5E1 ;
@@ -19,18 +18,17 @@
     --text-lg: 700 24px/135% var(--font-family);
     --text-md: 700 16px/140% var(--font-family);
     --text-sm: 500 14px/145% var(--font-family);
+    
+}
 
+body {
     font: var(--text);
-    color: var(--text-color-secondary);
-    background: var(--background-color);
+    color: var(--text-color-primary);
+    background-color: var(--background-color);
 }
 
 .content {
-    background: var(--brand-color-dark);
-}
-
-i {
-    color: var(--text-color-primary); 
+    background-color: var(--brand-color-dark);
 }
 
 i:hover { 
