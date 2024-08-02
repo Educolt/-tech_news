@@ -31,6 +31,9 @@
 .gap-16 {
     gap: 1rem;
 }
+.gap-32 {
+    gap: 2rem;
+}
 
 .text-2xl {
     font: var(--h1);
